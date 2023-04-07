@@ -23,7 +23,7 @@ echo $output 1> commits.json
 
 # Commiting and pushing it into the remote repo.
 git pull fetch
-git merge --no-commit
+git merge --no-commit origin/master
 git add .
 git commit -m "Commited for $count times. last commit was: $last_date"
 git push -u origin master
