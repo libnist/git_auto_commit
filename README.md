@@ -25,4 +25,5 @@ cd git_auto_commit
 ./gac.sh -u {https://github.com/<username>/<repository>.git} -d directory/to/save/local/files
 ```
 
-* (by default -d uses where you have cloned the repo)
+* By default -d uses where you have cloned the repo
+* Make sure `git push ...` is not asking for credentials every time
