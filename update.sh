@@ -22,6 +22,7 @@ output="{\"date\": $current_date, \"count\": \"$count\"}"
 echo $output 1> commits.json
 
 # Commiting and pushing it into the remote repo.
+git fetch
 git add .
 git commit -m "Commited for $count times. last commit was: $last_date"
 git push -u origin master
