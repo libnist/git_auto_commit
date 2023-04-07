@@ -1,7 +1,8 @@
 # git_auto_commit
 Make one commit per day. (only on Linux)
 
-## Usage
+## Usage:
+
 1) Open the terminal: Ctl + Alt + t
 
 2) clone the repository:
